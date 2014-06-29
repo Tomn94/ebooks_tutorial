@@ -226,8 +226,8 @@ prepend `sudo` onto the command and try again
         ![screenshot](http://i.imgur.com/EUKKtzy.png)
 
         - foreman is great for bug fixing, etc, because you don't want to have to push your
-        code to Heroku's servers every time you do something, and want to check
-        if something does what you want it to do. once you've run
+        code to Heroku's servers every time you do something and want to check
+        if something does (or doesn't do) what you want it to do. once you've run
         `foreman start`, try doing something with your bot (like following it),
         and it should do whatever you've specified (i.e.: follow back).
         *your bot should work by now* (if it doesn't,
