@@ -225,14 +225,14 @@ prepend `sudo` onto the command and try again
 
         ![screenshot](http://i.imgur.com/EUKKtzy.png)
 
-          - foreman is great for bug fixing, etc, because you don't want to have to push your
-          code to Heroku's servers every time you do something, and want to check
-          if something does what you want it to do. once you've run
-          `foreman start`, try doing something with your bot (like following it),
-          and it should do whatever you've specified (i.e.: follow back).
-          *your bot should work by now* (if it doesn't,
-          go back and check previous steps). press control-c to kill foreman's
-          process when you're finished testing.
+        - foreman is great for bug fixing, etc, because you don't want to have to push your
+        code to Heroku's servers every time you do something, and want to check
+        if something does what you want it to do. once you've run
+        `foreman start`, try doing something with your bot (like following it),
+        and it should do whatever you've specified (i.e.: follow back).
+        *your bot should work by now* (if it doesn't,
+        go back and check previous steps). press control-c to kill foreman's
+        process when you're finished testing.
 
 18. ### initialize [git](http://git-scm.com) and commit our changes
 
