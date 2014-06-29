@@ -4,6 +4,11 @@ ebooks tutorial
 who wants to learn how to make a twitter ebooks
 account?
 
+side note
+---------
+
+I might just make a CLI called "larry" that does all of this for you.
+
 requirements
 ------------
 - a computer, preferably running OS X or Linux
