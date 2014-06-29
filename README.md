@@ -15,18 +15,18 @@ requirements
   [Xcode](https://developer.apple.com/xcode/). On Linux, you can
   install ruby with `sudo apt-get install ruby`.
 
-    - i also heavily recommend installing [rvm](https://rvm.io)
+    - I also heavily recommend installing [rvm](https://rvm.io)
     (I should basically make this a requirement,
       but there are ways around it).
-      install rvm (and ruby) with
-      `\curl -sSL https://get.rvm.io | bash -s stable`
-      (if you're on Linux and you don't have curl, `sudo apt-get install curl`)
-      first, run `rvm get stable --auto-dotfiles`, because rvm needs to be added
-      to your `$PATH`.
-      second, this project uses ruby v1.9.3, and you'll probably have the newest
-      version of ruby, so run `rvm install ruby-1.9.3-p547` to install that.
-      you should be all good until later, when you start working
-      in your directory.
+      install rvm (and ruby), auto-get dotfiles and install
+      ruby v1.9.3
+
+      ```bash
+      $ sudo apt-get install curl # if you're on Linux
+      $ \curl -sSL https://get.rvm.io | bash -s stable
+      $ rvm get stable --auto-dotfiles
+      $ rvm install ruby-1.9.3-p547
+      ```
 
 - it also might help to learn some basic command-line stuff,
 but that's up to you to decide
