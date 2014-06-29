@@ -22,10 +22,10 @@ requirements
       ruby v1.9.3
 
       ```bash
-      $ sudo apt-get install curl # if you're on Linux
-      $ \curl -sSL https://get.rvm.io | bash -s stable
-      $ rvm get stable --auto-dotfiles
-      $ rvm install ruby-1.9.3-p547
+$ sudo apt-get install curl # if you're on Linux
+$ \curl -sSL https://get.rvm.io | bash -s stable
+$ rvm get stable --auto-dotfiles
+$ rvm install ruby-1.9.3-p547
       ```
 
 - it also might help to learn some basic command-line stuff,
