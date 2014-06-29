@@ -199,7 +199,7 @@ prepend `sudo` onto the command and try again
         -  again, if you get "permission denied" errors, just prepend "`sudo`"
           ![screenshot](http://i.imgur.com/H6dKETk.png)
 
-      it should install not problem :)
+      it should install no problem :)
       ![screenshot](http://i.imgur.com/Ni15JGV.png)
 
     - now we want to install all of the gems that have been added to
