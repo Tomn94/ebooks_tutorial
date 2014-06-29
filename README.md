@@ -15,6 +15,19 @@ requirements
   [Xcode](https://developer.apple.com/xcode/). On Linux, you can
   install ruby with `sudo apt-get install ruby`.
 
+    - i also heavily recommend installing [rvm](https://rvm.io)
+    (I should basically make this a requirement,
+      but there are ways around it).
+      install rvm (and ruby) with
+      `\curl -sSL https://get.rvm.io | bash -s stable`
+      (if you're on Linux and you don't have curl, `sudo apt-get install curl`)
+      first, run `rvm get stable --auto-dotfiles`, because rvm needs to be added
+      to your `$PATH`.
+      second, this project uses ruby v1.9.3, and you'll probably have the newest
+      version of ruby, so run `rvm install ruby-1.9.3-p547` to install that.
+      you should be all good until later, when you start working
+      in your directory.
+
 - it also might help to learn some basic command-line stuff,
 but that's up to you to decide
 
@@ -33,23 +46,42 @@ everything i do in this tutorial should work for you the same way.
 ![screenshot](http://i.imgur.com/Kmg9j0T.png)
 
 3. ### `cd` into your Desktop
+  ```bash
+  $ cd Desktop/
+  ```
   ![screenshot](http://i.imgur.com/Y2HDiGq.png)
 
 4. ### install the [twitter_ebooks gem](https://github.com/mispy/twitter_ebooks)
+  ```bash
+  $ gem install twitter_ebooks
+  ```
   ![screenshot](http://i.imgur.com/IiYNiUX.png)
 
   - if you get a "permission denied" error of some sort,
-prepend `sudo` onto the command and try again
-  ![screenshot](http://i.imgur.com/ZpdKKW1.png)
+    prepend `sudo` onto the command and try again
+    ```bash
+    $ sudo gem install twitter_ebooks
+    ```
+    ![screenshot](http://i.imgur.com/ZpdKKW1.png)
 
-5. ### once the twitter_ebooks gem has been installed,
-  create your application / bot
+5. ### once the twitter_ebooks gem has been installed, create your application / bot
+  ```bash
+  $ ebooks new yourAppName
+  ```
   ![screenshot](http://i.imgur.com/g11QOYL.png)
 
-6. ### `cd` into your application / bot
+6. ### `cd` into your application / bot, and use ruby v1.9.3
+  ```bash
+  $ cd yourAppName/
+  $ rvm use ruby-1.9.3-p547
+  ```
   ![screenshot](http://i.imgur.com/FCUIDQz.png)
 
 7. ### open the project in your favourite text editor
+  for example,
+  ```bash
+  $ atom
+  ```
   (just because i'm not using vim right now, doesn't mean
   I should be harshly judged)
   ![screenshot](http://i.imgur.com/VOZym4m.png)
@@ -126,7 +158,7 @@ prepend `sudo` onto the command and try again
     and click "Update settings"
     ![screenshot](http://i.imgur.com/EahCyma.png)
 
-    cool.
+    [#cool](https://twitter.com/search?q=%23cool&src=typd).
 
 14. ### grab the API and OATH keys
 
@@ -193,10 +225,15 @@ prepend `sudo` onto the command and try again
 
     - install bundler
 
-      -  run `gem install bundler` to install it
+      ```bash
+      $ gem install bundler
+      ```
         ![screenshot](http://i.imgur.com/VPlxa6p.png)
 
         -  again, if you get "permission denied" errors, just prepend "`sudo`"
+          ```bash
+          $ sudo gem install bundler
+          ```
           ![screenshot](http://i.imgur.com/H6dKETk.png)
 
       it should install no problem :)
@@ -205,11 +242,17 @@ prepend `sudo` onto the command and try again
     - now we want to install all of the gems that have been added to
       the `Gemfile` (we didn't add these, they were automatically created
       when we created our application / bot with the twitter_ebooks gem / CLI)
+      ```bash
+      $ bundle install
+      ```
       ![screenshot](http://i.imgur.com/TCGyMep.png)
 
         - I forgot to take a screenshot for it (:anguished:), but
         if you start getting a ton of "permission denied" errors,
-        you know what to do: `sudo bundle install`
+        you know what to do:
+        ```bash
+        $ sudo bundle install
+        ```
 
         everything should work no problemo. you should have
         all of these gems installed, so that's cool.
@@ -251,10 +294,13 @@ prepend `sudo` onto the command and try again
 
     cool, so you should have git installed now.
 
-    - now you need to initialize your project
-    with `git init`. then add everything in the project
-    to git's queue with `git add -A`, and, last but not least,
-    commit your changes with `git commit -m "Initial Commit"`
+    - now you need to initialize your project, add everything in the project
+    to git's queue, and, last but not least, commit your changes
+    ```bash
+    $ git init
+    $ git add -A
+    $ git commit -m "Initial Commit"
+    ```
     ![screenshot](http://i.imgur.com/lqirWjc.png)
 
     git is now initialized in your project, and your code (and files)
@@ -263,13 +309,18 @@ prepend `sudo` onto the command and try again
 
 19. ### push your code to heroku
 
-    - create your Heroku server with `heroku create`
+    - create your Heroku server
+    ```bash
+    $ heroku create
+    ```
     ![screenshot](http://i.imgur.com/Kh5hkXm.png)
 
-    - now push your code to Heroku's servers with
-    `git push heroku master`. (I took this screenshot prematurely
+    - now push your code to Heroku's servers (I took this screenshot prematurely
       (heh), so there will be a lot more text / logs that come after the
       "runnning bundle install", etc, so don't worry about that)
+      ```bash
+      $ git push heroku master
+      ```
     ![screenshot](http://i.imgur.com/8RAtQx9.png)
 
     once everything has been pushed, your bot should work :D
@@ -300,5 +351,7 @@ prepend `sudo` onto the command and try again
       i don't know why this helps, but sometimes it does.
       (i forgot to grab screenshots for this. sorry. :bird:)
 
-      try running `heroku ps:scale worker=1`, followed
-      by `git push heroku master`.
+      ```bash
+      $ heroku ps:scale worker=1
+      $ git push heroku master
+      ```
