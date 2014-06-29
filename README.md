@@ -7,7 +7,7 @@ account?
 side note
 ---------
 
-I might just make a CLI called "larry" that does all of this for you.
+I might just make a CLI named "larry" that does all of this for you.
 
 requirements
 ------------
