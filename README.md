@@ -28,7 +28,7 @@ requirements
 
       ```bash
 $ sudo apt-get install curl # if you're on Linux
-$ \curl -sSL https://get.rvm.io | bash -s stable
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
 $ rvm get stable --auto-dotfiles
 $ rvm install ruby-1.9.3-p547
       ```
