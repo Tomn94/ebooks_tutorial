@@ -51,7 +51,7 @@ shouldn't be running Linux.)
 ![screenshot](http://i.imgur.com/g0Fz4TZ.png)
 
 2. ### it probably won't look like mine, but that's totally fine.
-everything i do in this tutorial should work for you the same way.
+everything I do in this tutorial should work for you the same way.
 ![screenshot](http://i.imgur.com/Kmg9j0T.png)
 
 3. ### `cd` into your Desktop
@@ -65,14 +65,16 @@ everything i do in this tutorial should work for you the same way.
   ```bash
   $ gem install twitter_ebooks
   ```
-  
+
   ![screenshot](http://i.imgur.com/IiYNiUX.png)
 
   - if you get a "permission denied" error of some sort,
     prepend `sudo` onto the command and try again
+
     ```bash
     $ sudo gem install twitter_ebooks
     ```
+
     ![screenshot](http://i.imgur.com/ZpdKKW1.png)
 
 5. ### once the twitter_ebooks gem has been installed, create your application / bot
@@ -106,7 +108,7 @@ everything i do in this tutorial should work for you the same way.
   ![screenshot](http://i.imgur.com/sIWPRsg.png)
 
 9. ### now you'll need to create a twitter account for the bot
-  i recommend using https://www.guerrillamail.com for a
+  I recommend using https://www.guerrillamail.com for a
   quick and easy, disposable email
   ![screenshot](http://i.imgur.com/g6BKx55.png)
 
@@ -124,7 +126,7 @@ everything i do in this tutorial should work for you the same way.
 
     - if it is, just click "suspended accounts"
     and agree to twitter's crap about
-    "not doing anything stupid again"
+    "not doing anything stupid again", etc.
 
 11. ### go to https://dev.twitter.com
     ![screenshot](http://i.imgur.com/WZmqMML.png)
