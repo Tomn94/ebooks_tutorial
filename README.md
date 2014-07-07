@@ -61,9 +61,11 @@ everything i do in this tutorial should work for you the same way.
   ![screenshot](http://i.imgur.com/Y2HDiGq.png)
 
 4. ### install the [twitter_ebooks gem](https://github.com/mispy/twitter_ebooks)
+
   ```bash
   $ gem install twitter_ebooks
   ```
+  
   ![screenshot](http://i.imgur.com/IiYNiUX.png)
 
   - if you get a "permission denied" error of some sort,
@@ -202,6 +204,12 @@ everything i do in this tutorial should work for you the same way.
     (`bot.oauth_token` and `bot.oauth_token_secret`)
     ![screenshot](http://i.imgur.com/bgOBM1h.png)
     ![screenshot](http://i.imgur.com/7Qv1gLG.png)
+
+    - **side note:** after changing the permissions
+    of your bot, you might have to regenerate
+    your API and OAUTH keys (and pasting the new
+      ones into your bot code). try doing that if things
+    aren't working for you.
 
     your bot should (finally) now be ready to start working with :)
 
