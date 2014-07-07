@@ -16,20 +16,24 @@ requirements
 ![screenshot](http://i.imgur.com/WTCa7fa.png)
 
 - [ruby](https://www.ruby-lang.org/), which can easily
-  be installed on OS X by downloading and opening
+  be installed on OS X by downloading **and opening (at least once)**
   [Xcode](https://developer.apple.com/xcode/). On Linux, you can
-  install ruby with `sudo apt-get install ruby`.
+  install ruby with apt-get
+  ```bash
+  $ sudo apt-get install ruby
+  ```
 
     - I also heavily recommend installing [rvm](https://rvm.io)
     (I should basically make this a requirement,
       but there are ways around it).
-      install rvm (and ruby), auto-get dotfiles and install
+      install rvm (and ruby), auto-get dotfiles, install rvm's requirements and install
       ruby v1.9.3
 
       ```bash
 $ sudo apt-get install curl # if you're on Linux
 $ \curl -sSL https://get.rvm.io | bash -s stable --ruby
 $ rvm get stable --auto-dotfiles
+$ rvm requirements # this'll probably take a while
 $ rvm install ruby-1.9.3-p547
       ```
 
