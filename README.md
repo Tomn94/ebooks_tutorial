@@ -17,7 +17,11 @@ requirements
 
 - [ruby](https://www.ruby-lang.org/), which can easily
   be installed on OS X by downloading **and opening (at least once)**
-  [Xcode](https://developer.apple.com/xcode/). On Linux, you can
+  [Xcode](https://developer.apple.com/xcode/). if you want to be
+  different or something, you can avoid Xcode and install the
+  [command line tools](https://developer.apple.com/downloads/index.action?name=command%20line%20tools)
+  (for your system),
+  but I'm not 100% sure that'll work, so stick with Xcode if you can. On Linux, you can
   install ruby with apt-get
   ```bash
   $ sudo apt-get install ruby
