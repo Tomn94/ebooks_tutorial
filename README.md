@@ -4,6 +4,8 @@ ebooks tutorial
 who wants to learn how to make a twitter ebooks
 account?
 
+[well instead of learning i made a script to do this shit for you and it has better code too](https://github.com/trommel/make-ebooks)
+
 side note
 ---------
 
