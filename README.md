@@ -107,24 +107,16 @@ try tweeting your bot now, say something passive agressive and then block it or 
 
 if it's working all good and replying to you and shit you can throw it on Heroku and get it the fuck off your machine
 
-Heroku works with git so nicely so you just need to throw it on Heroku's remote
+Heroku works with git so nicely so you just need to throw it on Heroku's remote. make sure your Heroku server has >= 1 instance of the app running because that's important
 
 ```
 git init # init git, RHYMES
 git add -A
 git commit -m "Initial Commit"
-git push heroku master
-```
-
-your bot should be working now :))
-
-if it's not try this
-
-```
 heroku ps:scale worker=1
 git push heroku master
 ```
 
-if it's still not [tweet me](https://twitter.com/nulljosh) and ask me nicely to help you
+if you can't get shit working or just wanna say hi or something, [tweet me](https://twitter.com/nulljosh) :100:
 
 © 2k15 josh
