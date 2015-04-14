@@ -1,5 +1,5 @@
-an easier way to make ebooks than the last walkthrough
-========================================
+an easier way to make ebooks than my last walkthrough
+=====================================================
 
 grab a computer running OS X or Linux or Unix in general really. this tutorial will mostly be for
 Mac but any Unix system will work. if you're using Linux you should be able to figure this out by the
@@ -41,7 +41,7 @@ this'll install all the gems you need to get this shit on the road :smile:
 
 once you have the gems installed, install [npm](http://nodejs.org/download/)
 
-with npm installed you can install a module Kirby made from a gist i think? you might have to kill Terminal first before running this (remember to `cd` back into yoru dirs :aerial_tramway:)
+with npm installed you can install a module Kirby made from a gist i think? you might have to kill Terminal first before running this (remember to `cd` back into your dirs :aerial_tramway:)
 
 ```
 npm install -g twauth
