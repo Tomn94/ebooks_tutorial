@@ -27,8 +27,8 @@ if you have Linux you probably have git
 [mispy](https://github.com/mispy) has my favourite ebooks code so if you wanna just clone [her example](https://github.com/mispy/ebooks_example) that'd make things a lot easier. it's full functional :) then `cd` into the directory
 
 ```
-git clone https://github.com/mispy/ebooks_example > your-ebooks-name_ebooks
-cd your-ebooks-name_ebooks
+git clone git@github.com:mispy/ebooks_example your-ebooks-name_ebooks
+cd your-ebooks-name_ebooks/
 ```
 
 since there's a Gemfile just
@@ -44,7 +44,7 @@ once you have the gems installed, install [npm](http://nodejs.org/download/)
 with npm installed you can install a module Kirby made from a gist i think? you might have to kill Terminal first before running this (remember to `cd` back into your dirs :aerial_tramway:)
 
 ```
-npm install -g twauth
+sudo npm install -g twauth
 ```
 
 it basically lets you bypass verifying your twitter account with a phone number before you can make an app and get your keys and stuff, which you need
