@@ -68,10 +68,10 @@ your terminal will (should) give you a link to visit. visit it, sign in, and you
 
 
 ```
-https://push.tapbots.com/tweetbot/3/callback?oauth_token=asdflkjhdsaf&oauth_verifier=asdlfkhjsdafsdf
+https://push.tapbots.com/tweetbot/3/callback?oauth_token=1234&oauth_verifier=5678
 ```
 
-copy what the &oauth_verifier is, in this case "asdlfkhjsdafsdf".  go back to your terminal and paste this in. this is your "pin number"
+copy what the `&oauth_verifier` is, in this case `5678` (it'll probably be something more like `4Wg5gzPhxcWrtfgee6Dgg8GwPgahhCRD`.  go back to your terminal and paste this in. this is your "pin number"
 
 hit enter and you should get oauth keys- one public, one private
 
