@@ -24,7 +24,7 @@ if it gives you info on git you already have command line tools probably. even b
 
 if you have Linux you probably have git
 
-[mispy](https://github.com/mispy) has my favourite ebooks code so if you wanna just clone [her example](https://github.com/mispy/ebooks_example) that'd make things a lot easier. it's full functional :) then `cd` into the directory
+[mispy](https://github.com/mispy) has my favourite ebooks code so if you wanna just clone [her example](https://github.com/mispy/ebooks_example) that'd make things a lot easier. it's fully functional n stuff so that's nice. `cd` into the directory once you've cloned it
 
 ```
 git clone git@github.com:mispy/ebooks_example your-ebooks-name_ebooks
