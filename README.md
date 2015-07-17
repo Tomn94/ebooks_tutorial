@@ -113,6 +113,7 @@ Heroku works with git so nicely so you just need to throw it on Heroku's remote.
 git init # init git, RHYMES
 git add -A
 git commit -m "Initial Commit"
+heroku create
 heroku ps:scale worker=1
 git push heroku master
 ```
