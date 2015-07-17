@@ -93,7 +93,7 @@ jump back into your Terminal now and make sure you're still in your ebooks folde
 
 ```
 export username=your_twitter_username
-ebooks archive username corpus/$username.json
+ebooks archive $username corpus/$username.json
 ebooks consume corpus/$username.json
 ```
 
