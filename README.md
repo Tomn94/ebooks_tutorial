@@ -107,10 +107,10 @@ try tweeting your bot now, say something passive agressive and then block it or 
 
 if it's working all good and replying to you and shit you can throw it on Heroku and get it the fuck off your machine
 
-Heroku works with git so nicely so you just need to throw it on Heroku's remote. make sure your Heroku server has >= 1 instance of the app running because that's important
+Heroku works with git quite nicely so you just need to give it Heroku's remote and push it. make sure your Heroku server has an actual instance of the app because that's fairly important for it to work
 
 ```
-git init # init git, RHYMES
+git init
 git add -A
 git commit -m "Initial Commit"
 heroku create
