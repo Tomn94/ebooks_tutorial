@@ -41,8 +41,6 @@ Note: Again, the `sudo` command is a hack. Same reasons apply here.
 
 We’ll use twauth to essentially bypass Twitter’s phone verification, which they have in place to prevent users from abusing apps.
 
----
-
 Now would be a good time to [create a Twitter account for your bot](https://twitter.com/signup). Make sure the email is confirmed. Then [sign up for a Heroku account](heroku.com), which you’ll be using to deploy your bot to-- unless you have your own server in which you can do that yourself. Once you have a Heroku account, [download (and install) the Heroku Toolbelt](https://toolbelt.heroku.com/). Once that's done, login to Heroku through Terminal:
 
 ```
