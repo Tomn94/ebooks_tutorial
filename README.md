@@ -70,7 +70,8 @@ Copy the value of `&oauth_verifier` is-- in this case `4Wg5gzPhxcWrtfgee6Dgg8GwP
   - On line 131 and change "abby_ebooks" to what your twitter bot username is (username_ebooks, etc)
   - One line 132 assign `bot.access_token` to
 the first oauth key you got from twauth (the public one)
-  - On line 133 assign `bot.access_token_secret` to the second key you got (your oauth private). - on line 135 assign `bot.original` to the username you want to base your ebooks off of (probably your main twitter username)
+  - On line 133 assign `bot.access_token_secret` to the second key you got (your oauth private).
+  - On line 135 assign `bot.original` to the username you want to base your ebooks off of (probably your main twitter username)
 
 Flip back to Terminal and make sure you're still in your ebooks folder. Now you can generate an archive from your tweets.
 
