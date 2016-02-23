@@ -1,5 +1,7 @@
-Twitter Ebooks Tutorial
+Twitter Ebooks Bot Tutorial
 =======================
+
+![XKCD Twitter Bot](http://imgs.xkcd.com/comics/twitter_bot.png)
 
 First things first hop on a machine running *NIX (OS X, Linux, etc)
 
@@ -107,4 +109,4 @@ git push heroku master
 
 If you have any questions feel free to [tweet me](https://twitter.com/nulljosh).
 
-© 2015 Josh Trommel
+© 2016 Joshua Trommel
